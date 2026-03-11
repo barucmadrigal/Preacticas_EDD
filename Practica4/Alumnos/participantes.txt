@@ -1,0 +1,24 @@
+Sub zero,M:5,P:10,C:Kaimua  
+Pikachu,M:5,P:6,C:Lua  
+Goku,M:7,P:8,C:Moana  
+TralaleroTralala,M:10,P:100,C:Moli  
+Scorpion,M:8,P:12,C:Kaimua  
+Raiden,M:6,P:9,C:Lua  
+LiuKang,M:12,P:15,C:Moana  
+Kitana,M:4,P:5,C:Moli  
+Po,M:9,P:11,C:Lua  
+Naruto,M:15,P:18,C:Kaimua  
+Sasuke,M:11,P:14,C:Moana  
+Vegeta,M:13,P:16,C:Moli  
+Krillin,M:3,P:7,C:Lua  
+ChunLi,M:10,P:13,C:Kaimua  
+Ryu,M:14,P:20,C:Moana  
+Ken,M:6,P:10,C:Moli  
+Thor,M:18,P:22,C:Kaimua  
+Hulk,M:20,P:25,C:Moana  
+Batman,M:7,P:9,C:Lua  
+Superman,M:25,P:30,C:Moli  
+Flash,M:9,P:12,C:Lua  
+WonderWoman,M:16,P:19,C:Kaimua  
+IronMan,M:12,P:17,C:Moana  
+Spiderman,M:8,P:14,C:Moli  
