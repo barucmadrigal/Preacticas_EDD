@@ -1,0 +1,17 @@
+google.com : 01/01/2023
+openai.com : 15/01/2023
+google.com : 20/01/2023
+stackoverflow.com : 10/02/2023
+openai.com : 28/02/2023
+github.com : 05/03/2023
+google.com : 15/03/2023
+oracle.com : 30/03/2023
+wikipedia.org : 12/04/2023
+chat.openai.com : 01/05/2023
+openai.com : 05/05/2023
+mozilla.org : 15/06/2023
+fciencias.unam.mx : 10/07/2023
+correo.unam.mx : 20/07/2023
+google.com : 01/08/2023
+wikipedia.org : 10/09/2023
+chat.openai.com : 15/10/2023
