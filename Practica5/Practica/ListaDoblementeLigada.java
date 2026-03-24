@@ -1,36 +1,67 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+/**
+ * Estructura de datos que guarda elementos en nodos conectados en dos direcciones.
+ * Cada nodo sabe cual es el anterior y cual es el siguiente.
+ *
+ * @param <T> El tipo de dato que va a guardar la lista.
+ */
 public class ListaDoblementeLigada<T> implements Lista<T> {
 
+     /**
+      * Clase interna que representa cada nodo o pieza de la lista.
+      */
      private class Nodo{
+          /** El dato que guarda el nodo. */
           public T elemento;
-
+          /** La conexion al nodo que sigue. */
           public Nodo siguiente;
-
+          /** La conexion al nodo anterior. */
           public Nodo anterior;
 
+          /**
+           * Construye un nodo nuevo con el elemento dado.
+           *
+           * @param e El elemento que se va a guardar.
+           */
           public Nodo(T e) {
                this.elemento = e;
           }
      }
 
+     /**
+      * Clase interna que nos ayuda a recorrer la lista elemento por elemento.
+      */
      private class IteradorDoubleLinkedList implements Iterator<T> {
 
+          /** El nodo por el que acabamos de pasar. */
           public Nodo anterior;
-
+          /** El nodo que vamos a visitar a continuacion. */
           public Nodo siguiente;
 
+          /**
+           * Construye un iterador que empieza desde la cabeza de la lista.
+           */
           public IteradorDoubleLinkedList() {
                siguiente = cabeza;
           }
 
+          /**
+           * Nos dice si todavia hay elementos por recorrer en la lista.
+           *
+           * @return true si hay mas elementos, false si ya terminamos.
+           */
           @Override
-
           public boolean hasNext() {
                return siguiente != null;
           }
 
+          /**
+           * Nos da el siguiente elemento de la lista y avanza un paso.
+           *
+           * @return El elemento del nodo actual.
+           */
           @Override
           public T next() {
                if (siguiente == null) {
@@ -42,16 +73,26 @@ public class ListaDoblementeLigada<T> implements Lista<T> {
           }
      }
 
+     /** El primer nodo de la lista. */
      private Nodo cabeza;
-
+     /** El ultimo nodo de la lista. */
      private Nodo rabo;
-
+     /** La cantidad de elementos que tiene la lista en total. */
      private int longitud;
 
+     @Override
+     /**
+      * Crea un iterador para poder recorrer esta lista.
+      *
+      * @return Un nuevo iterador.
+      */
      public Iterator<T> iterator() {
           return new IteradorDoubleLinkedList();
      }
 
+     /**
+      * Construye una lista doblemente ligada completamente vacia.
+      */
      public ListaDoblementeLigada(){
           this.cabeza = null;
           this.rabo = null;
@@ -236,6 +277,7 @@ public class ListaDoblementeLigada<T> implements Lista<T> {
           return actual;
      }
 
+     @Override
      /**
       * Convierte toda la lista en un texto para poder leerla facilmente.
       *

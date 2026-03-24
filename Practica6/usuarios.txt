@@ -1,0 +1,9 @@
+Ana_VIP_1
+Carlos_PREMIUM_2
+Beatriz_REGULAR_3
+David_VIP_4
+Elena_PREMIUM_5
+Fernando_REGULAR_6
+Gabriela_VIP_7
+Hugo_PREMIUM_8
+Isabel_REGULAR_9
