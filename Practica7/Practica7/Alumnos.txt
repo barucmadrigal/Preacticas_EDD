@@ -1,0 +1,16 @@
+Numero de cuenta, Nombre, Materias del semestre anterior, Materias aprobadas del semestre anterior, Porcentaje de creditos, Regular
+317662362, Taylor Hebert, 3, 0, 88.86, False
+317670286, Lisa Wilbourn, 6, 3, 46.03, True
+317468383, Brian Laborn, 4, 0, 71.42, True
+317918684, Rachel Lindt, 6, 4, 16.42, False
+317567146, Alec Jean-Paul Vasil, 9, 1, 84.26, True
+317902220, Aisha Laborn, 10, 10, 76.48, True
+317957551, Sophia Hess, 10, 9, 63.04, True
+317978156, Victoria Dallon, 9, 1, 73.81, False
+317552408, Amy Dallon, 3, 2, 42.9, True
+317824817, Emily Piggot, 10, 4, 43.0, True
+317292637, Jessica Yamada, 6, 1, 72.13, True
+317404817, Kayden Anders, 10, 6, 44.41, True
+317165781, Alan Gramme, 10, 4, 80.53, True
+317515477, Francis Krouse, 8, 8, 77.81, False
+317597276, Marissa Newland, 10, 6, 77.05, False

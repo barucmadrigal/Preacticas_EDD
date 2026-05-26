@@ -1,3 +1,5 @@
+
+
 public class MainListaDoble {
     public static void main(String[] args) {
         ListaDoblementeLigada<Integer> lista = new ListaDoblementeLigada<>();
@@ -8,6 +10,7 @@ public class MainListaDoble {
         lista.agregarFinal(30);
         System.out.println("Lista después de agregar 10, 20, 30:");
         System.out.println(lista); // [10,20,30]
+        System.err.println(lista.DevolverIndice(1));
 
         // Agregar en una posición específica
         lista.agregar(15);

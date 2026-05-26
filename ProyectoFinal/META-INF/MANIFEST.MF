@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: Mains.MainHash
+Created-By: 21.0.7 (Red Hat, Inc.)
+

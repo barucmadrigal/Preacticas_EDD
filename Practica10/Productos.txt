@@ -1,0 +1,16 @@
+Producto,Precio,Categoria,Marca,Existencia
+Apple iPhone 14799,Electronics,Apple,25
+Samsung 55" Smart TV,599,Electronics,Samsung,12
+Nike Air Max Sneakers,120,Footwear,Nike,40
+Levi’s 501 Jeans,65,Clothing,Levi’s,30
+KitchenAid Stand Mixer,349,Home Appliances,KitchenAid,15
+Sony Noise-Canceling Headphones,199,Electronics,Sony,22
+Dell Inspiron Laptop,699,Computers,Dell,18
+Adidas Soccer Ball,30,Sports,Adidas,50
+Canon EOS Rebel Camera,499,Electronics,Canon,10
+Patagonia Fleece Jacket,120,Clothing,Patagonia,25
+Whirlpool Microwave Oven,150,Home Appliances,Whirlpool,20
+Apple Watch Series,9399,Wearables,Apple,35
+LEGO Star Wars Set,89,Toys,LEGO,60
+HP OfficeJet Printer,129,Office Supplies,HP,14
+Ray-Ban Aviator Sunglasses,150,Accessories,Ray-Ban,28
